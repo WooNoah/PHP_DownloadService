@@ -9,7 +9,7 @@
 	//下载进程
 	//$file_name		要下载的文件（文本，图片，视频皆可）名字
 	//$file_sub_path	文件所在的路径（$_SERVER['DOCUMENT_ROOT']只能获取到服务器所在的根目录，windows环境下为(本机)c://wamp64/www/）
-	//因此调用该方法的时候，需要传入**根目录到文件之间的*子路径****
+	//因此调用该方法的时候，需要传入根目录到文件之间的子路径
 	//download_progress("Tulips.jpg", "/FileDownload/res/");
 
 	
