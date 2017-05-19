@@ -11,6 +11,8 @@
 	//$file_sub_path	文件所在的路径（$_SERVER['DOCUMENT_ROOT']只能获取到服务器所在的根目录，windows环境下为(本机)c://wamp64/www/）
 	//因此调用该方法的时候，需要传入**根目录到文件之间的*子路径****
 	//download_progress("Tulips.jpg", "/FileDownload/res/");
+
+	
 	function download_progress($file_name, $file_sub_path) {
 
 		//对文件中的中文进行转码
