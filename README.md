@@ -38,7 +38,7 @@
 		header("Content-Disposition: attachment; filename: $file_name");
 
 
-		$buffer = 1024;
+		$buffer = 1024; (Byte)
 		$file_count = 0;
 
 		while (!feof($fp) && ($file_count < $file_size)) {
